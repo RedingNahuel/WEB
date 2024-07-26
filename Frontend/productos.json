@@ -1,0 +1,59 @@
+[
+    {
+        "nombre": "Cartuchera grande",
+        "precio": 7000,
+        "cuotas": 2,
+        "precio_cuota": 3500,
+        "imagen": "imagenes/organizadores/cartuchera_grande.png",
+        "descuento": null,
+        "imagenes": []
+    },
+    {
+        "nombre": "Kit organizador",
+        "precio": 10000,
+        "cuotas": 2,
+        "precio_cuota": 5000,
+        "imagen": "imagenes/organizadores/rosa.png",
+        "descuento": 17,
+        "imagenes": []
+    },
+    {
+        "nombre": "Mochila y set matero",
+        "precio": 28980,
+        "cuotas": 2,
+        "precio_cuota": 14490,
+        "imagen": "imagenes/bolsos_y_set/supercombo.png",
+        "descuento": 10,
+        "imagenes": []
+    },
+    {
+        "nombre": "Super Combo Matero",
+        "precio": 19880,
+        "cuotas": 2,
+        "precio_cuota": 9440,
+        "imagen": "imagenes/bolsos_y_set/supercombo.png",
+        "descuento": null,
+        "categoria": "Combos Materos",
+        "imagenes": []
+    },
+    {
+        "nombre": "Kit organizador",
+        "precio": 10000,
+        "cuotas": 2,
+        "precio_cuota": 5000,
+        "imagen": "imagenes/bolsos_y_set/supercombo2.png",
+        "descuento": 17,
+        "categoria": "Combos Materos",
+        "imagenes": []
+    },
+    {
+        "nombre": "Mochila y set matero",
+        "precio": 28980,
+        "cuotas": 2,
+        "precio_cuota": 14490,
+        "imagen": "imagenes/bolsos_y_set/mochila.png",
+        "descuento": 10,
+        "categoria": "Combos Materos",
+        "imagenes": []
+    }
+]

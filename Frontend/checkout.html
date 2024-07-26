@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Teko Creaciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <span>¡NO OLVIDES ETIQUETARNOS EN INSTAGRAM CON TU PRODUCTO TEKO!</span>
+        </div>
+        <div class="main-header">
+            <a href="index.html" class="logo">
+                <img src="imagenes/logo.png" alt="Teko Creaciones">
+            </a>
+            <input type="text" class="search-bar" placeholder="¿Qué estás buscando?" id="search-bar">
+            <button class="help-button" id="help-button">Ayuda</button>
+            <div class="help-info" id="help-info">
+                <p>📞 543433352957</p>
+                <p>📧 tekocreaciones@gmail.com</p>
+            </div>
+            <a href="#" class="account-button">Mi cuenta</a>
+            <a href="#" class="cart-button">Mi carrito</a>
+        </div>
+    </header>
+
+    <section class="checkout">
+        <h1>Carrito de Compras</h1>
+        <div class="checkout-container">
+            <div class="checkout-item">
+                <img src="imagenes/producto1.png" alt="Producto">
+                <div class="checkout-item-info">
+                    <h3>Kit organizador</h3>
+                    <p>1 x $10.000,00</p>
+                    <div class="quantity-controls">
+                        <button class="quantity-minus">-</button>
+                        <input type="number" value="1" class="quantity-input">
+                        <button class="quantity-plus">+</button>
+                    </div>
+                    <p class="item-price">Subtotal: $10.000,00</p>
+                    <button class="btn-remove">Eliminar</button>
+                </div>
+            </div>
+            <div class="checkout-summary">
+                <h2>Resumen del Pedido</h2>
+                <p>Subtotal (sin envío): $10.000,00</p>
+                <div class="shipping-options">
+                    <h3>Medios de envío</h3>
+                    <input type="text" placeholder="Tu código postal">
+                    <button class="btn-calculate">Calcular</button>
+                </div>
+                <div class="local-pickup">
+                    <h3>Nuestro local</h3>
+                    <p>Teko Creaciones - Jorge Luis Borges 42, Paraná, Entre Ríos - Atención de Lun. a Sab. de 9 a 12 y de 16 a 20</p>
+                    <p><strong>Gratis</strong></p>
+                </div>
+                <div class="checkout-total">
+                    <h2>Total: $10.000,00</h2>
+                    <p>O hasta 2 cuotas sin interés de $5.000,00</p>
+                    <button class="btn-checkout">Iniciar Compra</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-column">
+            <h3>Categorías</h3>
+            <a href="productos.html">Productos</a>
+            <a href="ventas_por_mayor.html">Ventas por mayor</a>
+            <a href="como_comprar.html">Cómo Comprar</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <div class="footer-column">
+            <h3>Contáctanos</h3>
+            <p>📞 543433352957</p>
+            <p>📞 +543433352957</p>
+            <p>📧 tekocreaciones@gmail.com</p>
+            <p>📍 Jorge Luis Borges 42</p>
+        </div>
+        <div class="footer-column">
+            <h3>Sigamos conectados</h3>
+            <a href="https://www.instagram.com/tekocreaciones/" target="_blank">
+                <img src="imagenes/instagram_icon.png" alt="Instagram">
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

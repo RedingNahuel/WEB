@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teko Creaciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <span>¡NO OLVIDES ETIQUETARNOS EN INSTAGRAM CON TU PRODUCTO TEKO!</span>
+        </div>
+        <div class="main-header">
+            <a href="index.html" class="logo">
+                <img src="imagenes/front/teko-logo.png" alt="Logo de Teko Creaciones">
+            </a>
+            <input type="search" class="search-bar" placeholder="¿Qué estás buscando?" id="search-bar" aria-label="Buscar">
+            <button class="help-button" id="help-button" aria-expanded="false" aria-controls="help-info">Ayuda</button>
+            <div class="help-info" id="help-info" role="dialog" aria-hidden="true">
+                <p>📞 543433352957</p>
+                <p>📧 tekocreaciones@gmail.com</p>
+            </div>
+            <a href="#" class="account-button">Mi cuenta</a>
+            <div class="cart-button-container">
+                <a href="#" class="cart-button" id="cart-button" aria-expanded="false" aria-controls="cart-preview">Mi carrito</a>
+                <div class="cart-preview" id="cart-preview" aria-hidden="true">
+                    <!-- Vista previa del carrito se llenará aquí -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <div class="nav-item">
+            <a href="productos.html">Productos</a>
+            <div class="dropdown">
+                <div class="dropdown-column">
+                    <h4><a href="combos_materos.html">COMBOS MATEROS</a></h4>
+                </div>
+                <div class="dropdown-column">
+                    <h4><a href="set_materos.html">SET MATEROS</a></h4>
+                    <h4><a href="mochilas_materas.html">MOCHILAS MATERAS</a></h4>
+                    <h4><a href="yerberas_individuales.html">YERBERAS INDIVIDUALES</a></h4>
+                </div>
+                <div class="dropdown-column">
+                    <h4><a href="termos_mates_cafeteros.html">TERMOS, MATES Y CAFETEROS</a></h4>
+                    <h4><a href="organizadores_personales.html">ORGANIZADORES PERSONALES</a></h4>
+                </div>
+                <div class="dropdown-column">
+                    <h4><a href="cartucheras_portafotocopias.html">CARTUCHERAS Y PORTAFOTOCOPIAS</a></h4>
+                    <h4><a href="bolsa_para_autos.html">BOLSA PARA AUTOS</a></h4>
+                    <h4><a href="porta_celular.html">PORTA CELULAR</a></h4>
+                </div>
+                <div class="dropdown-column">
+                    <h4><a href="playa.html">PLAYA</a></h4>
+                </div>
+            </div>
+        </div>
+        <a href="ventas_por_mayor.html">Ventas por mayor</a>
+        <a href="como_comprar.html">Cómo Comprar</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <section class="product-section">
+        <div class="product-card">
+            <img src="imagenes/front/combos_materos.png" alt="Imagen de Combos Materos">
+            <div class="product-info">
+                <h3>10% DE DESCUENTO EN COMBOS MATEROS</h3>
+                <div class="product-buttons">
+                    <a href="combos_materos.html" class="btn-view">Ver más!</a>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="imagenes/front/organizadores_personales.png" alt="Imagen de Organizadores Personales">
+            <div class="product-info">
+                <h3>ORGANIZADORES PERSONALES</h3>
+                <div class="product-buttons">
+                    <a href="organizadores_personales.html" class="btn-view">Ver más!</a>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="imagenes/front/termos_mates_cafeteros.png" alt="Imagen de Termos, Mates y Cafeteros">
+            <div class="product-info">
+                <h3>TERMOS, MATES Y CAFETEROS</h3>
+                <div class="product-buttons">
+                    <a href="termos_mates_cafeteros.html" class="btn-view">Ver más!</a>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-column">
+            <h3>Categorías</h3>
+            <a href="productos.html">Productos</a>
+            <a href="ventas_por_mayor.html">Ventas por mayor</a>
+            <a href="como_comprar.html">Cómo Comprar</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <div class="footer-column">
+            <h3>Contáctanos</h3>
+            <p>📞 543433352957</p>
+            <p>📞 +543433352957</p>
+            <p>📧 tekocreaciones@gmail.com</p>
+            <p>📍 Jorge Luis Borges 42</p>
+        </div>
+        <div class="footer-column">
+            <h3>Sigamos conectados</h3>
+            <a href="https://www.instagram.com/tekocreaciones/" target="_blank" aria-label="Instagram de Teko Creaciones">
+                <img src="imagenes/front/instagram-logo-instagram-icon-transparent-free-png.png" alt="Logo de Instagram">
+            </a>
+        </div>
+    </footer>
+
+    <div id="carrito-overlay" class="carrito-overlay" aria-hidden="true">
+        <div class="carrito-container">
+            <div class="carrito-header">
+                <h2>Mi carrito</h2>
+                <button id="carrito-close" class="btn-close" aria-label="Cerrar carrito">✖</button>
+            </div>
+            <div id="carrito-items" class="carrito-items">
+                <!-- Los productos del carrito se cargarán aquí -->
+            </div>
+            <div class="carrito-footer">
+                <p>Total: $<span id="carrito-total">0.00</span></p>
+                <a href="checkout.html" class="btn-checkout">Iniciar compra</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
