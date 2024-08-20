@@ -348,3 +348,47 @@ button, .account-button, .cart-button {
 .contacto-form .btn-submit:hover {
     background-color: #e6c200;
 }
+
+/* Estilos específicos para la página de detalles del producto */
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.product-images img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-info {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.product-info h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.product-info p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.product-info .buy-button {
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product-info .buy-button:hover {
+    background-color: #333;
+}

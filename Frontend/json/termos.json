@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre": "Mate Camionero con Virola de Acero",
+        "precio": 16000,
+        "imagen": "../imagenes/termos/mates.png",
+        "cuotas": "2 cuotas sin interés de $8.000,00"
+    },
+    {
+        "id": 2,
+        "nombre": "Vaso Térmico 1L",
+        "precio": 26000,
+        "imagen": "../imagenes/termos/jarro.png",
+        "cuotas": "2 cuotas sin interés de $13.000,00"
+    },
+    {
+        "id": 3,
+        "nombre": "Vaso Parlante",
+        "precio": 26000,
+        "imagen": "../imagenes/termos/parlante.png",
+        "cuotas": "2 cuotas sin interés de $13.000,00"
+    },
+    {
+        "id": 4,
+        "nombre": "Vaso Cafetero Térmico - 500ml",
+        "precio": 18000,
+        "imagen": "../imagenes/termos/vasos.png",
+        "cuotas": "2 cuotas sin interés de $9.000,00"
+    }
+]

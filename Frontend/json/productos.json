@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "nombre": "Mochila y set matero",
+        "precio": 28980.00,
+        "imagen": "../imagenes/bolsos_y_set/mochila.png",
+        "precioViejo": 32200.00,
+        "precioNuevo": 28980.00,
+        "cuotas": "2 cuotas sin interés de $14.490,00",
+        "descuento": "10% OFF"
+    },
+    {
+        "id": 2,
+        "nombre": "Super combo matero",
+        "precio": 19980.00,
+        "imagen": "../imagenes/bolsos_y_set/supercombo.png",
+        "precioViejo": 22200.00,
+        "precioNuevo": 19980.00,
+        "cuotas": "2 cuotas sin interés de $9.990,00",
+        "descuento": "10% OFF"
+    },
+    {
+        "id": 3,
+        "nombre": "Super combo matero",
+        "precio": 19980.00,
+        "imagen": "../imagenes/bolsos_y_set/supercombo2.png",
+        "precioViejo": 22200.00,
+        "precioNuevo": 19980.00,
+        "cuotas": "2 cuotas sin interés de $9.990,00",
+        "descuento": "10% OFF"
+    },
+    {
+        "id": 4,
+        "nombre": "Mochila y set matero",
+        "precio": 28980.00,
+        "imagen": "../imagenes/bolsos_y_set/whatsapp-image-2023-05-08-at-9-53-59-am-11-76f1d095eff219480216835509036621-480-0.png",
+        "precioViejo": 32200.00,
+        "precioNuevo": 28980.00,
+        "cuotas": "2 cuotas sin interés de $14.490,00",
+        "descuento": "10% OFF"
+    }
+]

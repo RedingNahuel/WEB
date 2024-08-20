@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "nombre": "Kit Organizador",
+        "precio": 10000,
+        "imagen": "../imagenes/organizadores/kit_organizador.png",
+        "precioViejo": 12000,
+        "precioNuevo": 10000,
+        "cuotas": "2 cuotas sin interés de $5.000,00",
+        "descuento": "17% OFF"
+    },
+    {
+        "id": 2,
+        "nombre": "Organizador personal",
+        "precio": 10000,
+        "imagen": "../imagenes/organizadores/kit_2.png",
+        "precioViejo": 12000,
+        "precioNuevo": 10000,
+        "cuotas": "2 cuotas sin interés de $5.000,00",
+        "descuento": "17% OFF"
+    },
+    {
+       "id": 3,
+        "nombre": "Sobre Para Fotocopias",
+        "precio": 5000,
+        "imagen": "../imagenes/organizadores/sobre1.jpg",
+        "cuotas": "2 cuotas sin interés de $2.500,00"
+    },
+    {
+        "id": 4,
+        "nombre": "Sobre Para Fotocopias",
+        "precio": 5000,
+        "imagen": "../imagenes/organizadores/img_20240726_122744-17303ccae425932d5d17221210124000-240-0.png",
+        "cuotas": "2 cuotas sin interés de $2.500,00"
+    }
+]
